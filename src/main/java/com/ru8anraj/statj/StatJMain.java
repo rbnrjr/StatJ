@@ -1,4 +1,4 @@
-package com.ru8anraj.StatJ;
+package com.ru8anraj.statj;
 
 public class StatJMain {
     public static void main(String[] args) {

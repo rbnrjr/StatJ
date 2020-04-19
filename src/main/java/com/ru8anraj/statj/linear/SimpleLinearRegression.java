@@ -1,15 +1,16 @@
-package com.ru8anraj.StatJ.linear;
+package com.ru8anraj.statj.linear;
 
-import com.ru8anraj.StatJ.linear.beans.SimpleLinearBetas;
-import com.ru8anraj.StatJ.linear.beans.SimpleLinearInitCalcData;
+import com.ru8anraj.statj.linear.beans.SimpleLinearBetas;
+import com.ru8anraj.statj.linear.beans.SimpleLinearInitCalcData;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SimpleLinearRegression {
 
-    private List<Long> X; // predictors
-    private List<Long> y; // outcomes
-    private SimpleLinearBetas beta; // co-eff value for the prediction
+    private List<Long> X = new ArrayList<>(); // predictors
+    private List<Long> y = new ArrayList<>(); // outcomes
+    private SimpleLinearBetas beta = new SimpleLinearBetas(); // co-eff value for the prediction
 
     private SimpleLinearInitCalcData initCalc(List<Long> X, List<Long> y) {
         /*!

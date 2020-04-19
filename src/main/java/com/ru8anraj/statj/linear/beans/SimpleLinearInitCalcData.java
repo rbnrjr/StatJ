@@ -1,4 +1,4 @@
-package com.ru8anraj.StatJ.linear.beans;
+package com.ru8anraj.statj.linear.beans;
 
 public class SimpleLinearInitCalcData {
     private long meanOfX;
